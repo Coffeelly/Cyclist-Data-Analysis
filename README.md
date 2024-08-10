@@ -49,31 +49,37 @@ The data is combined and created a new dataframe with 5.743.278 rows
 
 1. Check the data type
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/1f7fce77-1e73-4324-9966-2032c20ddcd6)
 
 2. Check for null values
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/baf22bfb-b25b-4992-b1f1-4f8b4005a2f3)
+
 
 3. Check for duplicates
 
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/d42d4107-b7b4-4fed-92ab-6302c5e620dd)
+
 
 ### Data Cleaning
 
 1. Delete Rows that have null values in it
 
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/5c523c3d-0a05-41aa-a6ee-5d812b78f854)
+
 
 2. Create 4 more column for duration of the rent (duration), day of the rent (day_start), hour of the rent (hour_start) and year-month of the rent (year_month).
 
-![alt text](image-6.png)
+![image](https://github.com/user-attachments/assets/d0babed7-51fa-43dc-9204-dabe1e405dca)
 
-![alt text](image-8.png)
+
+![image](https://github.com/user-attachments/assets/18e3af91-a096-4ec6-a0aa-e3edc8221629)
+
 
 3. Delete row with Anomalous Durations
 
-![alt text](image-5.png)
+![image](https://github.com/user-attachments/assets/5dd12cab-6e06-4cf2-a7fd-115f44c3734c)
+
 
 ## Analyze and Share
 
@@ -81,53 +87,60 @@ The question is: How do annual members and casual riders use Cyclistic bikes dif
 
 First we will see the precentage of member and casual
 
-![alt text](image-9.png)
+![image](https://github.com/user-attachments/assets/593063b7-d341-41bc-8ae1-b7d5c23c2f12)
+
 
 There are more Member than Casual
 
 Then we will see the distribution of the rideable type for member and casual
 
-![alt text](image-10.png)
+![image](https://github.com/user-attachments/assets/51eec182-b090-4073-948d-07b658ce9049)
+
 
 Most people used classic bike followed by the electric bike. Docked bikes are used the least and only by casual riders.
 
 Next, we will see the distribution of trips across months, days of the week, and hours of the day.
 
-![alt text](image-11.png)
+![image](https://github.com/user-attachments/assets/42641f14-ccf5-4b34-96ab-4f8e356213a5)
+
 
 Member start renting in the morning and afternoon, while casual rentals are primarily higher in the afternoon.
 
-![alt text](image-12.png)
+![image](https://github.com/user-attachments/assets/07610394-575a-478d-94d1-a0bd2a0fd4ff)
+
 
 Member rentals are higher on Monday, Tuesday, and Wednesday (weekdays), while casual rentals are higher on Friday and Saturday (weekends).
 
-![alt text](image-13.png)
+![image](https://github.com/user-attachments/assets/d3cbe8e6-58f7-4ee8-9429-40eeb80c70a9)
+
 
 Besides July and August, we can see that the monthly trend is quite similar for both members and casual users. Summer and spring see an increase in rentals, while winter and autumn experience a decrease.
 
 Ride duration of the trips are compared to find the differences in the behavior of casual and member riders.
 
-![alt text](image-14.png)
+![image](https://github.com/user-attachments/assets/7533cf44-2838-4eb8-afe4-0c9de8f3b017)
+
 
 Casual tend to rent longer compare to members do on average.
 
-We can infer from the previous observations that member may be using bikes for commuting to and from the work in the week days while casual riders are using bikes throughout the day, more frequently over the weekends for leisure purposes. Both are most active in summer and spring.
-These findings lead to the conclusion that casual commuters travel longer (approximately 2x more) but less frequently than members. They make longer journeys on weekends and during the day outside of commuting hours and in spring and summer season, so they might be doing so for recreation purposes.
-
 Next, we will see the station where the members and casual tend to start and end their rent.
 
-![alt text](image-15.png)
+![image](https://github.com/user-attachments/assets/9a5a17a2-3fb8-4fb7-977d-97ca50c27836)
 
-![alt text](image-16.png)
+
+![image](https://github.com/user-attachments/assets/43994bf0-eb56-491a-a867-370b95e9c56a)
+
 
 we will visualize with the map for easier understanding\
 _note: green is the starting station and red is the ending station_
 
 Member
-![alt text](image-17.png)
+![image](https://github.com/user-attachments/assets/39335de3-8101-48bb-a64e-8643570e30b1)
+
 
 Casual
-![alt text](image-18.png)
+![image](https://github.com/user-attachments/assets/19f91625-1893-4fb6-88a2-1980c4712e09)
+
 
 Members usually start and end their rent inside the city while casual started and end their rent in park, lake, beach, or harbor.
 
